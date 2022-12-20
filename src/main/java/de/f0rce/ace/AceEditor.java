@@ -55,7 +55,7 @@ public class AceEditor extends Component implements HasSize, HasStyle, Focusable
   private AceTheme theme = AceTheme.eclipse;
   private AceMode mode = AceMode.javascript;
   private String value = "";
-  private String baseUrl = "ace-builds/src-min-noconflict/";
+  private String baseUrl = "VAADIN/ace-builds/src-min-noconflict/";
   private int fontSize = 14;
   private boolean softTabs = true;
   private int tabSize = 4;
